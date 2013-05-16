@@ -1,6 +1,6 @@
 ---
 layout: page
-title: coolicer lemonÖ£
+title: coolicer lemonéƒ‘
 tagline: Sky's the Limit
 ---
 {% include JB/setup %}
@@ -10,15 +10,15 @@ appoint
   
 **params:**
 
-  - account
-  - pw
-  - id `int`  -- _½Ì²Äid_
-  - params `array` -- _Ö¸¶¨¿Î³ÌÃû³ÆÊı×é_
+  * account
+  * pw
+  * id `int`  -- _æ•™æid_
+  * params `array` -- _æŒ‡å®šè¯¾ç¨‹åç§°æ•°ç»„_
   
 **response:**
 
-  - success  `(0 or 1)`
-  - info  `(string)`
+  * success  `(0 or 1)`
+  * info  `(string)`
 
 <ul class="posts">
   {% for post in site.posts %}
