@@ -7,8 +7,7 @@ tagline: Sky's the Limit
 
 {% for post in site.posts %}
 <div class="posts">
-[{{ post.title }}]({{ BASE_PATH }}{{ post.url }})
-=================================================
+#[{{ post.title }}]({{ BASE_PATH }}{{ post.url }})
 {{ post.date | date_to_string }}
 </div>
 {% endfor %}
