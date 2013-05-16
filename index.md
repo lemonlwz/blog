@@ -1,6 +1,6 @@
 ---
 layout: page
-title: coolicer lemonÖ£
+title: coolicer lemonéƒ‘
 tagline: Sky's the Limit
 ---
 {% include JB/setup %}
@@ -12,8 +12,8 @@ appoint
 
   - account
   - pw
-  - id `int`  -- _½Ì²Äid_
-  - params `array` -- _Ö¸¶¨¿Î³ÌÃû³ÆÊı×é_
+  - id `int`  -- _æ•™æid_
+  - params `array` -- _æŒ‡å®šè¯¾ç¨‹åç§°æ•°ç»„_
   
 **response:**
 
