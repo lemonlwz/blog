@@ -19,7 +19,7 @@ tagline: Sky's the Limit
   {% if paginator.previous_page %}
     <p class="previous">
       {% if paginator.previous_page == 1 %}
-        <a href="/">Previous</a>
+        <a href="/blog">Previous</a>
       {% else %}
         <a href="{{ paginator.previous_page_path }}">Previous</a>
       {% endif %}
@@ -44,7 +44,7 @@ tagline: Sky's the Limit
         {% if count == paginator.page %}
           <span class="current-page">{{ count }}</span>
         {% else %}
-          <a href="/page{{ count }}">{{ count }}</a>
+          <a href="/blog/page{{ count }}">{{ count }}</a>
         {% endif %}
       </li>
     {% endfor %}
