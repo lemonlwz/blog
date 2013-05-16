@@ -10,18 +10,11 @@ appoint
   
 **params:**
 
-<<<<<<< HEAD
   * account
   * pw
   * id `int`  -- _教材id_
   * params `array` -- _指定课程名称数组_
-=======
-  - account
-  - pw
-  - id `int`  -- _教材id_
-  - params `array` -- _指定课程名称数组_
->>>>>>> 9735b66832e3a6df3e08e07c1270b646f94cfa62
-  
+
 **response:**
 
   * success  `(0 or 1)`
