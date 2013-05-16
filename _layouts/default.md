@@ -1,3 +1,12 @@
-html  
-{{ page.title }}  
-{{ content }}
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+</head>
+<body>
+
+  {{ content }}
+
+</body>
+</html>
