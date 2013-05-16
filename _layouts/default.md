@@ -1,1 +1,3 @@
-html
+html  
+{{ page.title }}  
+{{ content }}
