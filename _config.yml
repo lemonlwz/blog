@@ -128,3 +128,4 @@ JB :
   
 paginate: 5
 #baseurl: /blog
+markdown: rdiscount

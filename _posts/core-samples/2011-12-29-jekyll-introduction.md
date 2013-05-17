@@ -10,6 +10,21 @@ This Jekyll introduction will outline specifically  what Jekyll is and why you w
 Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
 <!--more-->
 
+appoint
+=======
+  
+**params:**
+
+  - account
+  - pw
+  - id `int`  -- _教材id_
+  - params `array` -- _指定课程名称数组_
+  
+**response:**
+
+  - success  `(0 or 1)`
+  - info  `(string)`
+
 ## Overview 
 
 ### What is Jekyll?
