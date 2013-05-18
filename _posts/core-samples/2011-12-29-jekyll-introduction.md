@@ -2,6 +2,9 @@
 layout: post
 category : lessons
 tagline: "Supporting tagline"
+author: 'lemon郑'
+indexImage: 'temp_img11.jpg'
+pageImage: 'temp_img11.jpg'
 tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}

@@ -5,9 +5,10 @@
 <div class="row-fluid post-full">
   <div class="span12">
     <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
+      <span>{{ page.date | date_to_long_string }} / {{ page.author}}</span>
     </div>
     <div class="content">
+      <p><img src="{{BASE_PATH}}/images/{{page.title}}/{{page.pageImage}}" alt="" /></p>
       {{ content }}
     </div>
 
