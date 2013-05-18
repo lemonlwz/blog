@@ -33,7 +33,7 @@
   </head>
 
   <body>
-    <div class="navbar">
+    <div id="J_navbar" class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}{% if site.tagline %} <small>{{ site.tagline }}</small>{% endif %}</a>
@@ -61,5 +61,6 @@
     </div>
 
     {% include JB/analytics %}
+    <script src="{{BASE_PATH}}/assets/js/base.js" type="text/javascript"></script>
   </body>
 </html>
