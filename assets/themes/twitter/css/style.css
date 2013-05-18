@@ -235,3 +235,8 @@ body {
   font-size: 1.4em;
   line-height: 1.2em;
 }
+
+/* line 124, ../sass/mods/_index.scss */
+footer {
+  text-align: center;
+}
