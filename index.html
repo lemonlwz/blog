@@ -8,7 +8,7 @@ tagline: Sky's the Limit
   {% for post in paginator.posts %}
     <div class="posts">
       <div class="cover">
-        <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.title }}">
+        <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.tagline }}">
           <img src="" alt="" data-src="{{BASE_PATH}}/images/{{ post.title }}/{{post.indexImage}}">
           <div class="richtext">
             {{post.content | split:'<!--more-->' |first}}
@@ -17,7 +17,7 @@ tagline: Sky's the Limit
       </div>
       <div class="content">
         <p class="tag">/ {% for tag in post.tags%}{{tag}} / {% endfor %}</p>
-        <h3 class="title"><a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+        <h3 class="title"><a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.tagline }}">{{ post.tagline }}</a></h3>
         <p class="info">{{ post.date | date: "%Y-%m-%d" }} / {{post.author}}</p>
       </div>
     </div>
