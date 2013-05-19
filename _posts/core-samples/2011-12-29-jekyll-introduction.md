@@ -1,5 +1,7 @@
 ---
 layout: post
+title: "Jekyll Introduction"
+description: "Jekyll Introduction"
 category : lessons
 tagline: "Supporting tagline"
 author: 'lemon郑'
