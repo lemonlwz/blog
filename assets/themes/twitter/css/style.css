@@ -129,68 +129,69 @@ li {
 }
 /* line 27, ../sass/mods/_index.scss */
 .navbar .brand small {
+  display: inline-block;
   font-size: 12px;
 }
-/* line 31, ../sass/mods/_index.scss */
+/* line 32, ../sass/mods/_index.scss */
 .navbar .nav {
-  padding-top: 15px;
+  padding: 15px 0;
 }
-/* line 33, ../sass/mods/_index.scss */
+/* line 34, ../sass/mods/_index.scss */
 .navbar .nav li {
   margin: 0 10px;
 }
-/* line 36, ../sass/mods/_index.scss */
+/* line 37, ../sass/mods/_index.scss */
 .navbar .nav a {
   border-radius: .8em;
 }
-/* line 40, ../sass/mods/_index.scss */
+/* line 41, ../sass/mods/_index.scss */
 .navbar .nav > li > a {
   padding: 2px 5px;
   color: #e5e5e5;
   text-shadow: 0 1px 0 #000;
 }
-/* line 44, ../sass/mods/_index.scss */
+/* line 45, ../sass/mods/_index.scss */
 .navbar .nav > li > a:hover {
   text-shadow: 0 1px 0 #FFF;
   background: #e5e5e5;
 }
 
-/* line 52, ../sass/mods/_index.scss */
+/* line 53, ../sass/mods/_index.scss */
 .pagination p {
   display: inline-block;
   vertical-align: middle;
   margin-bottom: 0;
 }
-/* line 57, ../sass/mods/_index.scss */
+/* line 58, ../sass/mods/_index.scss */
 .pagination .pages {
   margin: 0 10px;
   vertical-align: middle;
 }
 
-/* line 63, ../sass/mods/_index.scss */
+/* line 64, ../sass/mods/_index.scss */
 .container-narrow {
   max-width: 980px;
 }
 
-/* line 67, ../sass/mods/_index.scss */
+/* line 68, ../sass/mods/_index.scss */
 .list-blog {
   position: relative;
 }
-/* line 69, ../sass/mods/_index.scss */
+/* line 70, ../sass/mods/_index.scss */
 .list-blog:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 74, ../sass/mods/_index.scss */
+/* line 75, ../sass/mods/_index.scss */
 .list-blog a {
   color: #999;
 }
-/* line 77, ../sass/mods/_index.scss */
+/* line 78, ../sass/mods/_index.scss */
 .list-blog p {
   margin: 0;
 }
-/* line 80, ../sass/mods/_index.scss */
+/* line 81, ../sass/mods/_index.scss */
 .list-blog .posts {
   float: left;
   display: none;
@@ -199,25 +200,25 @@ li {
   background: #f6f6f6;
   color: #999;
 }
-/* line 88, ../sass/mods/_index.scss */
+/* line 89, ../sass/mods/_index.scss */
 .list-blog .posts:hover a {
   color: #e5e5e5;
 }
-/* line 91, ../sass/mods/_index.scss */
+/* line 92, ../sass/mods/_index.scss */
 .list-blog .posts:hover .richtext {
   display: block;
 }
-/* line 94, ../sass/mods/_index.scss */
+/* line 95, ../sass/mods/_index.scss */
 .list-blog .posts:hover .content {
   background: #000;
   color: #e5e5e5;
 }
-/* line 100, ../sass/mods/_index.scss */
+/* line 101, ../sass/mods/_index.scss */
 .list-blog .cover {
   position: relative;
   cursor: pointer;
 }
-/* line 104, ../sass/mods/_index.scss */
+/* line 105, ../sass/mods/_index.scss */
 .list-blog .richtext {
   position: absolute;
   left: 0;
@@ -230,18 +231,18 @@ li {
   color: #e5e5e5;
   overflow: hidden;
 }
-/* line 116, ../sass/mods/_index.scss */
+/* line 117, ../sass/mods/_index.scss */
 .list-blog .content {
   padding: 10px;
 }
-/* line 121, ../sass/mods/_index.scss */
+/* line 122, ../sass/mods/_index.scss */
 .list-blog .title {
   margin: 0;
   font-size: 1.4em;
   line-height: 1.2em;
 }
 
-/* line 128, ../sass/mods/_index.scss */
+/* line 129, ../sass/mods/_index.scss */
 footer {
   text-align: center;
 }
